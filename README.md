@@ -1,2 +1,4 @@
-Car Shop E-Commerce Platform | C#, ASP.NET, SQL Server
+# Car Shop
+
+C#, ASP.NET, SQL Server 
 
