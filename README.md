@@ -1,53 +1,72 @@
-# Car Shop E-Commerce Platform
+# 🚗 Car Shop E-Commerce Platform
 
 ## Overview
-Car Shop is a feature-rich e-commerce web application built using **C#, ASP.NET Core MVC, Razor Pages, SQL Server & Entity Framework**. It provides a seamless experience for users to browse, search, and purchase cars while offering an extensive admin panel for managing products, users, and system configurations.
+Car Shop is a modern **e-commerce platform** designed for buying and selling cars. It is built using **C#, ASP.NET Core MVC, Razor Pages, SQL Server, Entity Framework, and AWS**. The platform features **secure authentication with Two-Factor Authentication (2FA)**, an intuitive **Admin Dashboard**, and a **user-friendly shopping experience** with features like product search, user management, and payment processing.
 
-## Features
+---
 
-### **User Features**
-- **Car Search & Filtering:** Users can search for cars based on brand, model, price, and dealer.
-- **Product Listings & Details:** View detailed car information, including specifications, images, and price.
-- **User Authentication & Authorization:** Secure login and registration system with authentication via Identity.
-- **Shopping Cart & Checkout:** Add cars to the cart, manage items, and complete purchases with integrated payment.
+## 📌 Features
 
-### **Admin Dashboard**
-- **Role Management:** Assign and modify roles (Admin, Dealer, Customer) with different permission levels.
-- **Brand & Dealer Management:** Create, update, and delete brands and dealers to keep inventory up-to-date.
-- **Car Inventory Management:** Add, edit, and remove vehicles from the system.
-- **Order Management:** Track, update, and process customer orders.
+### 🔐 Authentication & Security
+- **User Authentication** (Register/Login)
+- **Two-Factor Authentication (2FA)** for enhanced security
+- **Role-based access control** (Admin, Dealer, Customer)
 
-## Tech Stack
-- **Frontend:** Razor Pages, HTML, CSS, JavaScript
-- **Backend:** C#, ASP.NET Core MVC
-- **Database:** SQL Server, Entity Framework
-- **Cloud & DevOps:** AWS (for hosting and storage)
-- **Authentication:** ASP.NET Identity
+### 🛠️ Admin Dashboard
+- **User Management**: Modify user roles (Admin, Dealer, Customer)
+- **Brand & Dealer Management**: Add, update, or remove brands and dealers
+- **Product Management**: Add, update, or remove cars from the platform
+- **Order Management**: View and manage customer orders
 
-## Installation & Setup
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/tamanna-sb/Car-Shop
-   cd Car-Shop
-   ```
-2. **Set Up Database:**
-   - Install **SQL Server** and update the connection string in `appsettings.json`.
-   - Apply migrations:
-     ```sh
-     dotnet ef database update
-     ```
-3. **Run the Application:**
-   ```sh
-   dotnet run
-   ```
-4. **Access the App:**
-   - Open `http://localhost:5000` in your browser.
-   - Login as Admin to access the dashboard.
+### 🛒 Shopping & Orders
+- **Search & Filter**: Browse cars by brand, model, price, etc.
+- **Add to Cart**: Users can add cars to their shopping cart
+- **Checkout & Payment**: Secure payment processing integration
 
-## Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue for discussion.
+### ☁️ Cloud & Database
+- **Hosted on AWS**
+- **SQL Server Database** using Entity Framework
 
-## License
-This project is licensed under the MIT License.
+---
+
+## 🏗️ Tech Stack
+- **Backend**: C#, ASP.NET Core MVC, Razor Pages
+- **Frontend**: Razor Pages, HTML, CSS, JavaScript
+- **Database**: SQL Server, Entity Framework
+- **Cloud**: AWS
+- **Security**: 2FA, Role-based access control
+
+---
+
+## 🚀 Installation & Setup
+
+### 2️⃣ Clone the Repository
+```bash
+git clone https://github.com/tamanna-sb/Car-Shop
+cd car-shop
+```
+
+### 3️⃣ Configure the Database
+- Install **SQL Server** and update the connection string in `appsettings.json`.
+- Apply migrations:
+```sh
+dotnet ef database update
+```
+
+### 4️⃣ Run the Application
+```bash
+dotnet run
+```
+The application will be available at `http://localhost:5000`.
+
+---
+
+## 📝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.
 
 
